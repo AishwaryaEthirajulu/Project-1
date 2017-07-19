@@ -2,7 +2,7 @@
 public class StringComparison {
 
 	private void checksFaster() {
-		final int NUM_ITERATIONS = 10000;
+		final int NUM_ITERATIONS = 20000;
 		// For StringBuffer
 		long startBf = System.currentTimeMillis();
 		StringBuffer sb = new StringBuffer("Full");
